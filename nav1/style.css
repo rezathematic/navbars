@@ -17,8 +17,11 @@ a {
 }
 
 body {
-    background-color: rgb(218, 218, 218);
-}
+    background-image:url(/nav1/bg.jpg);
+    background-size: cover;
+    background-position: center 100%;
+    background-repeat: no-repeat;
+    height: 100vh;}
 
 .container {
     width: 100%;
