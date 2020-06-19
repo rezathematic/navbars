@@ -80,3 +80,15 @@ li {
       color: black;
       text-decoration: underline;
   }
+
+  .container > a {
+    padding: 0.5rem 1rem;
+    background-color: rgba(146, 146, 146, 0.349);
+    border-radius: 4px;
+    transition: ease-in-out .25s;
+  }
+
+  .container > a:hover {
+      background-color: crimson;
+      color: white;
+  }
