@@ -3,10 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigation bar 4</title>
+    <title>Hamburger menu 3</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     
+    <nav id="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div><a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="https://github.com/rezathematic">GitHub</a>
+        <a href="#">Contact</a></div>
+
+    </nav>
+    
+    <div class="hamburger" onclick="openNav()">&#9776;</div>  
+
+
+    <header class="showcase">
+        <div class="container showcase-inner">
+            <h1>Hamburger menu</h1>
+            <p>Click on the hamburger menu icon on top left to activate it. <br>By clicking on the icon the menu will <strong><u>push from the left</u></strong> <br> You can find the other navbars I have created on my <strong>GitHub</strong></p>
+            <a href="https://rezathematic.github.io/navbars/" class="btn">See more navbars</a>
+        </div>
+    </header>
+    <script>
+        function openNav() {
+          document.getElementById("sidenav").style.width = "300px";
+        }
+        
+        function closeNav() {
+          document.getElementById("sidenav").style.width = "0";
+        }
+        </script>
 </body>
 </html>
